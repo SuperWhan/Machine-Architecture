@@ -1,0 +1,57 @@
+$date
+	Tue Mar 20 22:46:51 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module test_mipsalu $end
+$var wire 1 ! Zero $end
+$var wire 32 " ALUOut [31:0] $end
+$var reg 32 # A [31:0] $end
+$var reg 4 $ ALUctl [3:0] $end
+$var reg 32 % B [31:0] $end
+$scope module U0 $end
+$var wire 32 & A [31:0] $end
+$var wire 4 ' ALUctl [3:0] $end
+$var wire 32 ( B [31:0] $end
+$var wire 1 ! Zero $end
+$var reg 32 ) ALUOut [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 )
+b11001010100 (
+bx '
+b100000000001010100 &
+b11001010100 %
+bx $
+b100000000001010100 #
+b0 "
+1!
+$end
+#100
+0!
+b1010100 "
+b1010100 )
+b0 $
+b0 '
+#200
+b100000011001010100 "
+b100000011001010100 )
+b1 $
+b1 '
+#300
+b100000011010101000 "
+b100000011010101000 )
+b10 $
+b10 '
+#400
+b11111101000000000 "
+b11111101000000000 )
+b110 $
+b110 '
